@@ -1,0 +1,10 @@
+mkdir project_mockup
+cd project_mockup
+touch bash_script.txt
+touch readme.md my.db ddl.py connector.py etl.py dashboard.py
+mkdir source queries
+git init
+git remote add origin git@github.com:KarimovShohin/project_mockup.git
+git add .
+git commit -m "Первый домашний коммик"
+git push -u origin main
