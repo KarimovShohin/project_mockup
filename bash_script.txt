@@ -8,3 +8,8 @@ git remote add origin git@github.com:KarimovShohin/project_mockup.git
 git add .
 git commit -m "Первый домашний коммик"
 git push -u origin main
+touch queries/some_queries.sql
+touch source/something_1.csv
+touch source/something_2.csv
+git commit -m "Загрузка папок"
+git push -u origin maingir 
